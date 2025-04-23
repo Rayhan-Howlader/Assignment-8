@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "question": "What is useState and how does it work in React?",
+      "answer": "The `useState` hook is a fundamental feature in React that allows functional components to manage state. It returns a pair: the current state value and a function to update it. By invoking `useState(initialValue)`, you initialize the state with `initialValue`. When the updater function is called, React re-renders the component with the new state value. This hook is essential for tracking and updating dynamic data within components.",
+      "add_date": "2025-03-15"
+    },
+    {
+      "id": 2,
+      "question": "What is the purpose of useEffect in React?",
+      "answer": "The `useEffect` hook enables you to perform side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM. It runs after the component renders and can be configured to run only when certain dependencies change. This hook replaces lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components, providing a unified way to handle side effects.",
+      "add_date": "2025-02-28"
+    },
+    {
+      "id": 3,
+      "question": "What is a custom hook in React and when should you use one?",
+      "answer": "A custom hook is a reusable function that starts with 'use' and can call other hooks. It allows you to extract and share logic between components, promoting code reuse and cleaner component structures. You should use custom hooks when multiple components share similar logic, such as form handling or data fetching, to avoid code duplication and enhance maintainability.",
+      "add_date": "2025-01-22"
+    },
+    {
+      "id": 4,
+      "question": "Difference between controlled and uncontrolled components? Which one is better?",
+      "answer": "Controlled components are form elements whose values are managed by React state, ensuring that the component's state is the single source of truth. Uncontrolled components, on the other hand, manage their own state internally, relying on the DOM. Controlled components offer better control and are preferred for complex forms, while uncontrolled components can be simpler for basic use cases. The choice depends on the specific requirements of your application.",
+      "add_date": "2025-04-10"
+    },
+    {
+      "id": 5,
+      "question": "Tell us something about useFormStatus() (explore and explain)",
+      "answer": "The `useFormStatus` hook provides information about the status of the last form submission, including whether it's pending, the submitted data, the method used, and the action URL. This is particularly useful for displaying loading indicators or disabling form inputs during submission. By accessing the form's status, you can enhance user experience by providing immediate feedback during form interactions.",
+      "add_date": "2025-03-05"
+    }
+  ]
